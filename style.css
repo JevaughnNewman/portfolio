@@ -47,18 +47,25 @@ body {
   color: #007bff;
 }
 
-/* Hero Section */
+/* Hero Section Full-Width Background */
 header#hero {
-  text-align: center;
-  padding: 50px 20px;
-  background-color: #f0f4f8;
-  width: 100%;
+  background-color: #f0f4f8;  /* full-width background */
+  width: 100vw;               /* spans entire viewport */
+  padding: 80px 0;            /* increased vertical padding for larger hero */
   box-sizing: border-box;
+  text-align: center;
+}
+
+/* Center content inside hero */
+header#hero .container {
+  max-width: 1200px;   /* limits width of content */
+  margin: 0 auto;
+  padding: 0 20px;     /* horizontal padding inside container */
 }
 
 header#hero img {
-  width: 150px;
-  height: 150px;
+  width: 200px;          /* larger hero image */
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
@@ -67,7 +74,7 @@ header#hero img {
 /* Sections */
 section {
   padding: 50px 20px;
-  max-width: 1000px;  /* increased width for dashboards */
+  max-width: 1000px;  /* wider sections for dashboards and text */
   margin: 0 auto;
 }
 
@@ -80,7 +87,7 @@ section {
   background-color: #fafafa;
 }
 
-/* Resume Button */
+/* Buttons */
 button {
   background-color: #007bff;
   color: white;
