@@ -1,4 +1,12 @@
 /* Reset default margins and padding */
+.container {
+  width: 95%;      /* almost full width of the viewport */
+  max-width: 1600px; /* optional, controls max width on very large screens */
+  margin: 0 auto;   /* centers the container */
+  padding: 20px;    /* optional padding */
+}
+
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
