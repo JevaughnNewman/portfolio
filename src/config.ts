@@ -1,24 +1,24 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Jevaughn Newman",
+  title: "Business Intelligence Analyst",
+  description: "Portfolio showcasing my analytics projects and skills",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "jevaughn.newman@gmail.com",
+    linkedin: "jevaughn.newman@gmail.com",
+
+    github: "jevaughn.newman@gmail.com",
   },
   aboutMe:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  skills: ["PowerBI", "SQL", "Tableau", "Python", "Data Analsysis"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Target E-Commerce Dashboard",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Analyzed Target's Brazil e-commerce data to uncover sales trends, customer segments, and top products. Delivered insights through Tableau dashboards and a detailed report with actionable business recommendations."",
+      link: "https://github.com/JevaughnNewman/Target-E-Commerce-Sales-Data-Project",
+      skills: ["Tableau", "SQL", "DAX"],
     },
     {
       name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
@@ -68,25 +68,18 @@ export const siteConfig = {
     },
   ],
   education: [
+  
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Carleton University",
+      degree: "Bacherlor of Arts: Economics",
+      dateRange: "2018",
       achievements: [
         "Completed 500+ hours of coursework",
         "Built 10+ portfolio projects",
         "Specialized in React and Node.js",
       ],
     },
+  ],
+};
   ],
 };
