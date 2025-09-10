@@ -16,7 +16,7 @@ export const siteConfig = {
     {
       name: "Target E-Commerce Dashboard",
       description:
-        "Analyzed Target's Brazil e-commerce data to uncover sales trends, customer segments, and top products. Delivered insights through Tableau dashboards and a detailed report with actionable business recommendations."",
+        "Analyzed Target's Brazil e-commerce data to uncover sales trends, customer segments, and top products. Delivered insights through Tableau dashboards and a detailed report with actionable business recommendations.",
       link: "https://github.com/JevaughnNewman/Target-E-Commerce-Sales-Data-Project",
       skills: ["Tableau", "SQL", "DAX"],
     },
@@ -81,5 +81,5 @@ export const siteConfig = {
     },
   ],
 };
-  ],
-};
+  
+
