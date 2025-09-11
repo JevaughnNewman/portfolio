@@ -59,13 +59,14 @@ I’m excited to contribute to a data-driven team where my analytical skills and
   
     {
       school: "Carleton University",
-      degree: "Bachelor of Arts: Economics",
+      degree: "Bachelor of Arts: Economics, Minor in Statistics",
       dateRange: "2018",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+        "Statistical Modelling: Applied linear regression and ANOVA to analyze complex datasets.",
+        "Experimental Design: Completed coursework in hypothesis testing and A/B testing frameworks.",
+        "Economic Analysis: Gained a strong foundation in intermediate micro and macroeconomics.",
+        "Applied statistical methods to analyze datasets using Excel and SQL."
+     ],
     },
   ],
 };
