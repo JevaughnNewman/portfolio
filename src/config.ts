@@ -4,9 +4,9 @@ export const siteConfig = {
   description: "Portfolio showcasing my analytics projects and skills",
   accentColor: "#1d4ed8",
   social: {
-    email: "jevaughn.newman@gmail.com",
-    linkedin: "jevaughn.newman@gmail.com",
-    github: "jevaughn.newman@gmail.com",
+    email: "mailto:jevaughn.newman@gmail.com",
+    linkedin: "https://www.linkedin.com/in/jevaughnnewman",
+    github: "https://github.com/JevaughnNewman",
   },
   aboutMe: `I’m a data analyst with nearly six years in insurance, specializing in accident benefits and complex claims. Using SQL, Power BI, Excel, Tableau, and Python, I transform complex claims data into actionable insights that reduce costs, enhance operational efficiency, and inform strategic decisions.
 
@@ -22,7 +22,7 @@ I’m excited to contribute to a data-driven team where my analytical skills and
       description:
         "Analyzed Target's Brazil e-commerce data to uncover sales trends, customer segments, and top products. Delivered insights through Tableau dashboards and a detailed report with actionable business recommendations.",
       link: "https://github.com/JevaughnNewman/Target-E-Commerce-Sales-Data-Project",
-      skills: ["Tableau", "SQL", "DAX"],
+      skills: ["Tableau", "SQL", "MySQL Workbench 8.0.40"],
     },
     {
       name: "East Coast Insurance Claims Dashboard Q1 2015",
