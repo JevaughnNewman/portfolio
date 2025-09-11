@@ -9,8 +9,13 @@ export const siteConfig = {
 
     github: "jevaughn.newman@gmail.com",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+  aboutMe: `I’m a data analyst with nearly six years in insurance, specializing in accident benefits and complex claims. Using SQL, Power BI, Excel, Tableau, and Python, I transform complex claims data into actionable insights that reduce costs, enhance operational efficiency, and inform strategic decisions.
+
+I design scalable analytics solutions and interactive dashboards to monitor reserve trends and claims leakage, enabling faster, data-driven decision-making within highly regulated environments.
+
+As a mentor to junior adjusters, I promote team development and clear communication across legal, finance, and operations. Certified as a Microsoft Power BI Data Analyst Associate, I combine deep industry knowledge with technical expertise to drive measurable business results.
+
+I’m excited to contribute to a data-driven team where my analytical skills and insurance experience create real impact. Let’s connect to explore opportunities.`,
   skills: ["PowerBI", "SQL", "Tableau", "Python", "Data Analsysis"],
   projects: [
     {
@@ -26,14 +31,7 @@ export const siteConfig = {
         "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
       link: "https://fullstackextensions.com/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+    }
   ],
   experience: [
     {
@@ -52,7 +50,7 @@ export const siteConfig = {
       dateRange: "Jun 2020 - Dec 2021",
       bullets: [
         "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
+        "Implemented CI/CD pipeline, reducing deployment time by 60%",
         "Collaborated with product team to define technical requirements",
       ],
     },
@@ -71,7 +69,7 @@ export const siteConfig = {
   
     {
       school: "Carleton University",
-      degree: "Bacherlor of Arts: Economics",
+      degree: "Bachelor of Arts: Economics",
       dateRange: "2018",
       achievements: [
         "Completed 500+ hours of coursework",
@@ -81,5 +79,4 @@ export const siteConfig = {
     },
   ],
 };
-  
 
