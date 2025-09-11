@@ -6,7 +6,6 @@ export const siteConfig = {
   social: {
     email: "jevaughn.newman@gmail.com",
     linkedin: "jevaughn.newman@gmail.com",
-
     github: "jevaughn.newman@gmail.com",
   },
   aboutMe: `I’m a data analyst with nearly six years in insurance, specializing in accident benefits and complex claims. Using SQL, Power BI, Excel, Tableau, and Python, I transform complex claims data into actionable insights that reduce costs, enhance operational efficiency, and inform strategic decisions.
@@ -26,45 +25,36 @@ I’m excited to contribute to a data-driven team where my analytical skills and
       skills: ["Tableau", "SQL", "DAX"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "East Coast Insurance Claims Dashboard Q1 2015",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Developed an interactive claims dashboard for East Coast Insurance using Power BI and SQL Server 2022. This solution provides key insights into Q1 claims trends, total claim amounts, and claimant profiles, empowering claims management to make faster, data-driven decisions.",
+      link: "https://github.com/JevaughnNewman/East-Coast-Insurance-Data-Project",
+      skills: ["Power BI", "SQL", "MS SQL Server 2022"],
     }
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Intact Financial Corporation",
+      title: "Senior Claims Adjuster",
+      dateRange: "Jan 2023 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Manage a caseload of 100+ active AB claims, reviewing medical records and clinical data to determine treatment approvals, assessments, and settlements under SABS, ensuring compliance and minimizing leakage.",
+        "Analyzed trends across 300+ claims, identifying patterns in injury types and claimant demographics that informed department reporting and supported pricing strategies for high-risk profiles.",
+        "Lead negotiations on full and final settlements, achieving fair resolutions while reducing open file durations by 15%, and collaborated with legal, accounting, and management teams to align settlement strategies.Manage a caseload of 100+ active AB claims, reviewing medical records and clinical data to determine treatment approvals, assessments, and settlements under SABS, ensuring compliance and minimizing leakage. Analyzed trends across 300+ claims, identifying patterns in injury types and claimant demographics that informed department reporting and supported pricing strategies for high-risk profiles. Contributed to the Priority Leakage Project, identifying workflow inefficiencies that reduced operational costs by 10% and streamlined over 5 key claims handling processes. Lead negotiations on full and final settlements, achieving fair resolutions while reducing open file durations by 15%, and collaborated with legal, accounting, and management teams to align settlement strategies.",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
+      company: "Intact Financial Corporation",
+      title: "Claims Representative II, Accident Benefits at Intact",
       dateRange: "Jun 2020 - Dec 2021",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline, reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Handled mid-tier AB claims, reviewing and interpreting medical records, treatment plans, and police reports with 98% documentation accuracy under SABS compliance.",
+        "Achieved a 65% Health Rely score (vs. 52% target), supporting a 25% improvement in customer satisfaction metrics.",
+        "Analyzed trends in treatment plan submissions and injury patterns to support consistent approvals/denials, improving decision-making accuracy and file progression.",
+        "Trained 5+ new team members on AB claims handling workflows and data entry protocols, enhancing team efficiency and file quality.",
       ],
     },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
+  ], // <-- Corrected: Removed the extra comma here
   education: [
   
     {
@@ -79,4 +69,3 @@ I’m excited to contribute to a data-driven team where my analytical skills and
     },
   ],
 };
-
