@@ -16,7 +16,7 @@ I design scalable analytics solutions and interactive dashboards to monitor rese
 As a mentor to junior adjusters, I promote team development and clear communication across legal, finance, and operations. Certified as a Microsoft Power BI Data Analyst Associate, I combine deep industry knowledge with technical expertise to drive measurable business results.
 
 I’m excited to contribute to a data-driven team where my analytical skills and insurance experience create real impact. Let’s connect to explore opportunities.`,
-  skills: ["PowerBI", "SQL", "Tableau", "Python", "Data Analsysis"],
+  skills: ["PowerBI", "SQL", "Tableau", "Python", "Data Analsysis", "DAX", "Power Query", "Data Modeling"],
   experience: [
     {
       company: "Intact Financial Corporation",
@@ -46,7 +46,9 @@ I’m excited to contribute to a data-driven team where my analytical skills and
       degree: "Microsoft Certified: Power BI Data Analyst Associate",
       dateRange: "2024",
       achievements: [
-        "Validated expertise in data analysis and visualization.",
+        "Validated expertise in data analysis and visualization using the Microsoft Power BI platform.",
+        "Certified in using Power Query, DAX, and M to build robust data models and reports.",
+        "Proficient in creating interactive dashboards and sharing data-driven insights with stakeholders."
       ],
     },
     {
