@@ -17,24 +17,6 @@ As a mentor to junior adjusters, I promote team development and clear communicat
 
 I’m excited to contribute to a data-driven team where my analytical skills and insurance experience create real impact. Let’s connect to explore opportunities.`,
   skills: ["PowerBI", "SQL", "Tableau", "Python", "Data Analsysis"],
-  projects: [
-    {
-      name: "Target E-Commerce Dashboard",
-      description:
-        "Analyzed Target's Brazil e-commerce data to uncover sales trends, customer segments, and top products. Delivered insights through Tableau dashboards and a detailed report with actionable business recommendations.",
-      link: "https://github.com/JevaughnNewman/Target-E-Commerce-Sales-Data-Project",
-      embedUrl: "https://public.tableau.com/views/TargetEcommerceDashboard/ExecutiveDashboard",
-      skills: ["Tableau", "SQL", "MySQL Workbench 8.0.40"],
-    },
-    {
-      name: "East Coast Insurance Claims Dashboard Q1 2015",
-      description:
-        "Developed an interactive claims dashboard for East Coast Insurance using Power BI and SQL Server 2022. This solution provides key insights into Q1 claims trends, total claim amounts, and claimant profiles, empowering claims management to make faster, data-driven decisions.",
-      link: "https://github.com/JevaughnNewman/East-Coast-Insurance-Data-Project",
-      embedUrl: "https://app.powerbi.com/view?r=eyJrIjoiNGY2Y2Y4NDItYzBjNC00NWU3LWEyNjgtYjYyYmIyOWQwYzNkIiwidCI6IjVhMmY2ZmQxLTU3MzctNGY3Ny04MmNkLWQ4MGNhMGNkZjZiYSJ9",
-      skills: ["Power BI", "SQL", "MS SQL Server 2022"],
-    },
-  ],
   experience: [
     {
       company: "Intact Financial Corporation",
@@ -72,3 +54,30 @@ I’m excited to contribute to a data-driven team where my analytical skills and
     },
   ],
 };
+
+export interface Project {
+  name: string;
+  description: string;
+  skills: string[];
+  link: string;
+  embedUrl: string;
+}
+
+export const projects: Project[] = [
+  {
+    name: "Target E-Commerce Dashboard",
+    description:
+      "Analyzed Target's Brazil e-commerce data to uncover sales trends, customer segments, and top products. Delivered insights through Tableau dashboards and a detailed report with actionable business recommendations.",
+    link: "https://github.com/JevaughnNewman/Target-E-Commerce-Sales-Data-Project",
+    embedUrl: "https://public.tableau.com/views/TargetEcommerceDashboard/ExecutiveDashboard",
+    skills: ["Tableau", "SQL", "MySQL Workbench 8.0.40"],
+  },
+  {
+    name: "East Coast Insurance Claims Dashboard Q1 2015",
+    description:
+      "Developed an interactive claims dashboard for East Coast Insurance using Power BI and SQL Server 2022. This solution provides key insights into Q1 claims trends, total claim amounts, and claimant profiles, empowering claims management to make faster, data-driven decisions.",
+    link: "https://github.com/JevaughnNewman/East-Coast-Insurance-Data-Project",
+    embedUrl: "https://app.powerbi.com/view?r=eyJrIjoiNGY2Y2Y4NDItYzBjNC00NWU3LWEyNjgtYjYyYmIyOWQwYzNkIiwidCI6IjVhMmY2ZmQxLTU3MzctNGY3Ny04MmNkLWQ4MGNhMGNkZjZiYSJ9",
+    skills: ["Power BI", "SQL", "MS SQL Server 2022"],
+  },
+];
