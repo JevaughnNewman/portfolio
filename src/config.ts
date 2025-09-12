@@ -42,6 +42,14 @@ I’m excited to contribute to a data-driven team where my analytical skills and
   ],
   education: [
     {
+      school: "Microsoft",
+      degree: "Microsoft Certified: Power BI Data Analyst Associate",
+      dateRange: "2024",
+      achievements: [
+        "Validated expertise in data analysis and visualization.",
+      ],
+    },
+    {
       school: "Carleton University",
       degree: "Bachelor of Arts: Economics, Minor in Statistics",
       dateRange: "2018",
