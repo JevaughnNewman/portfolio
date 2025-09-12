@@ -7,6 +7,7 @@ export const siteConfig = {
     email: "mailto:jevaughn.newman@gmail.com",
     linkedin: "https://www.linkedin.com/in/jevaughnnewman",
     github: "https://github.com/JevaughnNewman",
+    resume:  "/portfolio/JevaughnNewmanResume.pdf"
   },
   aboutMe: `I’m a data analyst with nearly six years in insurance, specializing in accident benefits and complex claims. Using SQL, Power BI, Excel, Tableau, and Python, I transform complex claims data into actionable insights that reduce costs, enhance operational efficiency, and inform strategic decisions.
 
