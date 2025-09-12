@@ -78,7 +78,7 @@ export const projects: Project[] = [
     name: "Target E-Commerce Dashboard",
     description:
       "Analyzed Target's Brazil e-commerce data to uncover sales trends, customer segments, and top products. Delivered insights through Tableau dashboards and a detailed report with actionable business recommendations.",
-    link: "https://public.tableau.com/app/profile/jevaughn.newman/viz/TargetEcommerceDashboard/ExecutiveDashboard",
+    link: "https://github.com/JevaughnNewman/Target-E-Commerce-Sales-Data-Project",
     embedUrl: "https://public.tableau.com/views/TargetEcommerceDashboard/ExecutiveDashboard",
     skills: ["Tableau", "SQL", "MySQL Workbench 8.0.40"],
   },
