@@ -7,7 +7,7 @@ export const siteConfig = {
     email: "mailto:jevaughn.newman@gmail.com",
     linkedin: "https://www.linkedin.com/in/jevaughnnewman",
     github: "https://github.com/JevaughnNewman",
-    resume:  "/JevaughnNewmanResume.pdf",
+    resume: "/portfolio/JevaughnNewmanResume.pdf",
   },
   aboutMe: `I’m a data analyst with nearly six years in insurance, specializing in accident benefits and complex claims. Using SQL, Power BI, Excel, Tableau, and Python, I transform complex claims data into actionable insights that reduce costs, enhance operational efficiency, and inform strategic decisions.
 
@@ -33,7 +33,7 @@ I’m excited to contribute to a data-driven team where my analytical skills and
       link: "https://github.com/JevaughnNewman/East-Coast-Insurance-Data-Project",
       embedUrl: "https://app.powerbi.com/view?r=eyJrIjoiNGY2Y2Y4NDItYzBjNC00NWU3LWEyNjgtYjYyYmIyOWQwYzNkIiwidCI6IjVhMmY2ZmQxLTU3MzctNGY3Ny04MmNkLWQ4MGNhMGNkZjZiYSJ9",
       skills: ["Power BI", "SQL", "MS SQL Server 2022"],
-    }
+    },
   ],
   experience: [
     {
@@ -59,7 +59,6 @@ I’m excited to contribute to a data-driven team where my analytical skills and
     },
   ],
   education: [
-  
     {
       school: "Carleton University",
       degree: "Bachelor of Arts: Economics, Minor in Statistics",
@@ -69,7 +68,7 @@ I’m excited to contribute to a data-driven team where my analytical skills and
         "Experimental Design: Completed coursework in hypothesis testing and A/B testing frameworks.",
         "Economic Analysis: Gained a strong foundation in intermediate micro and macroeconomics.",
         "Applied statistical methods to analyze datasets using Excel and SQL."
-     ],
+      ],
     },
   ],
 };
