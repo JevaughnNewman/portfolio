@@ -23,7 +23,7 @@ I’m excited to contribute to a data-driven team where my analytical skills and
       description:
         "Analyzed Target's Brazil e-commerce data to uncover sales trends, customer segments, and top products. Delivered insights through Tableau dashboards and a detailed report with actionable business recommendations.",
       link: "https://github.com/JevaughnNewman/Target-E-Commerce-Sales-Data-Project",
-      embedUrl: "https://public.tableau.com/views/TargetEcommerceDashboard/ExecutiveDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+      embedUrl: "https://public.tableau.com/views/TargetEcommerceDashboard/ExecutiveDashboard",
       skills: ["Tableau", "SQL", "MySQL Workbench 8.0.40"],
     },
     {
@@ -57,7 +57,7 @@ I’m excited to contribute to a data-driven team where my analytical skills and
         "Trained 5+ new team members on AB claims handling workflows and data entry protocols, enhancing team efficiency and file quality.",
       ],
     },
-  ], // <-- Corrected: Removed the extra comma here
+  ],
   education: [
   
     {
