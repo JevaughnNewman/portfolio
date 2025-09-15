@@ -63,8 +63,18 @@ I’m excited to contribute to a data-driven team where my analytical skills and
       ],
     },
   ],
+  projects: [
+    {
+      name: "East Coast Insurance Claims Dashboard Q1 2015",
+      description: "Developed an interactive claims dashboard for East Coast Insurance using Power BI and SQL Server 2022. This solution provides key insights into Q1 claims trends, total claim amounts, and claimant profiles, empowering claims management to make faster, data-driven decisions.",
+      link: "https://github.com/JevaughnNewman/East-Coast-Insurance-Data-Project",
+      embedUrl: "https://app.powerbi.com/view?r=eyJrIjoiNGY2Y2Y4NDItYzBjNC00NWU3LWEyNjgtYjYyYmIyOWQwYzNkIiwidCI6IjVhMmY2ZmQxLTU3MzctNGY3Ny04MmNkLWQ4MGNhMGNkZjZiYSJ9",
+      skills: ["Power BI", "SQL", "MS SQL Server 2022"],
+    },
+  ],
 };
 
+// The `Project` interface is for type-checking and doesn't need to be in siteConfig
 export interface Project {
   name: string;
   description: string;
@@ -72,15 +82,3 @@ export interface Project {
   link: string;
   embedUrl: string;
 }
-
-export const projects: Project[] = [
-
-  {
-    name: "East Coast Insurance Claims Dashboard Q1 2015",
-    description:
-      "Developed an interactive claims dashboard for East Coast Insurance using Power BI and SQL Server 2022. This solution provides key insights into Q1 claims trends, total claim amounts, and claimant profiles, empowering claims management to make faster, data-driven decisions.",
-    link: "https://github.com/JevaughnNewman/East-Coast-Insurance-Data-Project",
-    embedUrl: "https://app.powerbi.com/view?r=eyJrIjoiNGY2Y2Y4NDItYzBjNC00NWU3LWEyNjgtYjYyYmIyOWQwYzNkIiwidCI6IjVhMmY2ZmQxLTU3MzctNGY3Ny04MmNkLWQ4MGNhMGNkZjZiYSJ9",
-    skills: ["Power BI", "SQL", "MS SQL Server 2022"],
-  },
-];
