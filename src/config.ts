@@ -52,7 +52,7 @@ export const education = [
     school: "Carleton University",
     degree: "Bachelor of Arts: Economics, Minor in Statistics",
     dateRange: "2018",
-    image: "/carleton-university-university.png", 
+    image: "carleton-university-university.png", 
     achievements: [
       "Statistical Modelling: Applied linear regression and ANOVA to analyze complex datasets.",
       "Experimental Design: Completed coursework in hypothesis testing and A/B testing frameworks.",
