@@ -26,11 +26,11 @@ const hasEducation = education && education.length > 0;
                   {/* Container for Image + Content */}
                   <div class="flex flex-col md:flex-row gap-6">
                     
-                    {/* Image Section - Only renders if 'image' exists in config.ts */}
+                    {/* REPLACE YOUR OLD IMAGE SECTION WITH THIS: */}
                     {edu.image && (
                       <div class="flex-shrink-0 w-24 h-24 sm:w-32 sm:h-32 mx-auto md:mx-0">
                         <img 
-                          src={edu.image} 
+                          src={`${import.meta.env.BASE_URL}${edu.image}`} 
                           alt={`${edu.school} logo`} 
                           class="w-full h-full object-contain"
                         />
