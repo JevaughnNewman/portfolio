@@ -1,8 +1,5 @@
 ---
-// 1. Correct Imports: Get the color from siteConfig and the data from education
 import { siteConfig, education } from "../config";
-
-// 2. Define the logic gate: Only show if there is data
 const hasEducation = education && education.length > 0;
 ---
 
@@ -23,37 +20,54 @@ const hasEducation = education && education.length > 0;
 
           <div class="lg:col-span-8">
             <div class="space-y-8">
-              {/* FIX: Map over 'education' directly, not 'siteConfig.education' */}
               {education.map((edu) => (
                 <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-5 md:p-6 hover:shadow-md transition-shadow duration-300">
-                  <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4">
-                    <div>
-                      <h3 class="text-lg sm:text-xl font-semibold text-gray-900">
-                        {edu.degree}
-                      </h3>
-                      <p
-                        class="text-base sm:text-lg"
-                        style={`color: ${siteConfig.accentColor}`}
-                      >
-                        {edu.school}
-                      </p>
-                    </div>
-                    <span class="text-xs sm:text-sm text-gray-500 mt-2 sm:mt-0">
-                      {edu.dateRange}
-                    </span>
-                  </div>
+                  
+                  {/* Container for Image + Content */}
+                  <div class="flex flex-col md:flex-row gap-6">
+                    
+                    {/* Image Section - Only renders if 'image' exists in config.ts */}
+                    {edu.image && (
+                      <div class="flex-shrink-0 w-24 h-24 sm:w-32 sm:h-32 mx-auto md:mx-0">
+                        <img 
+                          src={edu.image} 
+                          alt={`${edu.school} logo`} 
+                          class="w-full h-full object-contain"
+                        />
+                      </div>
+                    )}
 
-                  <ul class="space-y-2">
-                    {/* FIX: Add '?' (optional chaining) to prevent crashes if achievements are missing */}
-                    {edu.achievements?.map((achievement) => (
-                      <li class="flex items-start">
-                        <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
-                        <span class="text-sm sm:text-base text-gray-600">
-                          {achievement}
+                    {/* Text Content Section */}
+                    <div class="flex-1">
+                      <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4">
+                        <div>
+                          <h3 class="text-lg sm:text-xl font-semibold text-gray-900">
+                            {edu.degree}
+                          </h3>
+                          <p
+                            class="text-base sm:text-lg"
+                            style={`color: ${siteConfig.accentColor}`}
+                          >
+                            {edu.school}
+                          </p>
+                        </div>
+                        <span class="text-xs sm:text-sm text-gray-500 mt-2 sm:mt-0">
+                          {edu.dateRange}
                         </span>
-                      </li>
-                    ))}
-                  </ul>
+                      </div>
+
+                      <ul class="space-y-2">
+                        {edu.achievements?.map((achievement) => (
+                          <li class="flex items-start">
+                            <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
+                            <span class="text-sm sm:text-base text-gray-600">
+                              {achievement}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               ))}
             </div>

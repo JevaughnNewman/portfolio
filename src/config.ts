@@ -8,7 +8,7 @@ export const siteConfig = {
     email: "mailto:jevaughn.newman@gmail.com",
     linkedin: "https://www.linkedin.com/in/jevaughnnewman",
     github: "https://github.com/JevaughnNewman",
-    resume: "/Jevaughn-Newman-Resume.pdf",
+    resume: "/Jevaughn Newman - Businesses Intelligence Analyst.pdf",
   },
   aboutMe: `I’m a data analyst with nearly six years in insurance...`,
   skills: ["PowerBI", "SQL", "Tableau", "Python", "Data Analysis", "DAX", "Power Query", "Data Modeling", "Git"],
