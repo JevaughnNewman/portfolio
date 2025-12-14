@@ -8,9 +8,16 @@ export const siteConfig = {
     email: "mailto:jevaughn.newman@gmail.com",
     linkedin: "https://www.linkedin.com/in/jevaughnnewman",
     github: "https://github.com/JevaughnNewman",
-    resume: "/Jevaughn Newman - Businesses Intelligence Analyst.pdf",
+    resume: "Jevaughn Newman - Businesses Intelligence Analyst.pdf",
   },
-  aboutMe: `I’m a data analyst with nearly six years in insurance...`,
+  aboutMe: `I’m a data analyst with nearly six years in insurance, specializing in accident benefits and complex claims. Using SQL, Power BI, Excel, Tableau, and Python, I transform complex claims data into actionable insights that reduce costs, enhance operational efficiency, and inform strategic decisions.
+
+I design scalable analytics solutions and interactive dashboards to monitor reserve trends and claims leakage, enabling faster, data-driven decision-making within highly regulated environments.
+
+As a mentor to junior adjusters, I promote team development and clear communication across legal, finance, and operations. Certified as a Microsoft Power BI Data Analyst Associate, I combine deep industry knowledge with technical expertise to drive measurable business results.
+
+I’m excited to contribute to a data-driven team where my analytical skills and insurance experience create real impact. Let’s connect to explore opportunities.`,
+
   skills: ["PowerBI", "SQL", "Tableau", "Python", "Data Analysis", "DAX", "Power Query", "Data Modeling", "Git"],
 };
 
@@ -34,7 +41,7 @@ export const education = [
     school: "Microsoft",
     degree: "Microsoft Certified: Power BI Data Analyst Associate",
     dateRange: "2024",
-    image: "/power-bi-cert.webp",
+    image: "power-bi-cert.webp",
     achievements: [
       "Validated expertise in data analysis and visualization using the Microsoft Power BI platform.",
       "Certified in using Power Query, DAX, and M to build robust data models and reports.",
