@@ -21,8 +21,10 @@ export const experience = [
     title: "Senior Claims Adjuster",
     dateRange: "Jan 2023 - Present",
     bullets: [
-      "Manage a caseload of 100+ active AB claims...",
-      "Analyzed trends across 300+ claims..."
+      "Manage a caseload of 100+ active AB claims, reviewing medical records and clinical data to determine treatment approvals, assessments, and settlements under SABS, ensuring compliance and minimizing leakage.",
+      "Analyzed trends across 300+ claims, identifying patterns in injury types and claimant demographics that informed department reporting and supported pricing strategies for high-risk profiles.",
+      "Led cross-functional coordination with Legal, Accounting, and Management to standardize benefit tracking, achieving a 15% reduction in open file durations while maintaining settlement quality and compliance standards.",
+      "Led negotiations on full and final settlements, achieving fair resolutions while reducing open file durations by 15%, and collaborated with legal, accounting, and management teams to align settlement strategies.",
     ],
   }
 ];
