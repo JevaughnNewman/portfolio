@@ -6,7 +6,8 @@ import Projects from "../components/Projects.astro";
 import Experience from "../components/Experience.astro";
 import Education from "../components/Education.astro";
 import Footer from "../components/Footer.astro";
-import { siteConfig } from "../config";
+// ADD THE OTHER EXPORTS TO THIS LINE:
+import { siteConfig, projects, experience, education } from "../config"; 
 import "../styles/global.css";
 ---
 
@@ -25,15 +26,14 @@ import "../styles/global.css";
     />
     <title>{siteConfig.name} - {siteConfig.title}</title>
   </head>
-  <body>
-    <Header />
-    <section>
-      <Hero />
-      <About />
-      <Projects projects={siteConfig.projects} />
-      <Experience />
-      <Education />
-    </section>
-    <Footer />
-  </body>
-</html>
+<body>
+      <Header />
+      <section>
+        <Hero />
+        <About />
+        <Projects projects={projects} />
+        <Experience experience={experience} />
+        <Education education={education} />
+      </section>
+      <Footer />
+    </body>
