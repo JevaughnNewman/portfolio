@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/JevaughnNewman",
     resume: "Jevaughn Newman - Businesses Intelligence Analyst.pdf",
   },
-  aboutMe: `I’m a data analyst with nearly six years in insurance, specializing in accident benefits and complex claims. Using SQL, Power BI, Excel, Tableau, and Python, I transform complex claims data into actionable insights that reduce costs, enhance operational efficiency, and inform strategic decisions.
+  aboutMe: `I’m a business intelligence analyst with nearly six years in insurance, specializing in accident benefits and complex claims. Using SQL, Power BI, Excel, Tableau, and Python, I transform complex claims data into actionable insights that reduce costs, enhance operational efficiency, and inform strategic decisions.
 
 I design scalable analytics solutions and interactive dashboards to monitor reserve trends and claims leakage, enabling faster, data-driven decision-making within highly regulated environments.
 
@@ -52,7 +52,7 @@ export const education = [
     school: "Carleton University",
     degree: "Bachelor of Arts: Economics, Minor in Statistics",
     dateRange: "2018",
-    image: "", // You can add a Carleton logo here later
+    image: "carleton-university-university.png", 
     achievements: [
       "Statistical Modelling: Applied linear regression and ANOVA to analyze complex datasets.",
       "Experimental Design: Completed coursework in hypothesis testing and A/B testing frameworks.",
