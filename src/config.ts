@@ -33,12 +33,23 @@ export const education = [
     degree: "Microsoft Certified: Power BI Data Analyst Associate",
     dateRange: "2024",
     image: "/power-bi-cert.webp",
+    achievements: [
+      "Validated expertise in data analysis and visualization using the Microsoft Power BI platform.",
+      "Certified in using Power Query, DAX, and M to build robust data models and reports.",
+      "Proficient in creating interactive dashboards and sharing data-driven insights with stakeholders.",
+    ],
   },
   {
     school: "Carleton University",
     degree: "Bachelor of Arts: Economics, Minor in Statistics",
     dateRange: "2018",
-    image: "" 
+    image: "", // You can add a Carleton logo here later
+    achievements: [
+      "Statistical Modelling: Applied linear regression and ANOVA to analyze complex datasets.",
+      "Experimental Design: Completed coursework in hypothesis testing and A/B testing frameworks.",
+      "Economic Analysis: Gained a strong foundation in intermediate micro and macroeconomics.",
+      "Applied statistical methods to analyze datasets using Excel and SQL."
+    ],
   }
 ];
 
