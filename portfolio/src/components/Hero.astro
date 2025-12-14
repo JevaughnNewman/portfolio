@@ -1,0 +1,177 @@
+---
+import { siteConfig } from "../config";
+---
+
+<div
+  id="hero"
+  class="relative isolate overflow-hidden bg-white py-24 md:h-screen"
+  style={`--accent-color: ${siteConfig.accentColor}`}
+>
+  <div
+    class="absolute inset-0 -z-10"
+    style={`background: radial-gradient(ellipse 800px 1200px at 0% 0%, ${siteConfig.accentColor}40 0%, ${siteConfig.accentColor}25 20%, ${siteConfig.accentColor}10 40%, rgba(255, 255, 255, 0.3) 70%, rgba(255, 255, 255, 0.8) 90%, white 100%)`}
+  >
+  </div>
+  <svg
+    aria-hidden="true"
+    class="absolute inset-0 -z-10 size-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+  >
+    <defs>
+      <pattern
+        x="50%"
+        y={-1}
+        id="0787a7c5-978c-4f66-83c7-11c213f99cb7"
+        width={200}
+        height={200}
+        patternUnits="userSpaceOnUse"
+      >
+        <path d="M.5 200V.5H200" fill="none"></path>
+      </pattern>
+      <pattern
+        id="programming-symbols"
+        x="0"
+        y="0"
+        width="400"
+        height="400"
+        patternUnits="userSpaceOnUse"
+      >
+        <text
+          x="50"
+          y="50"
+          fill={siteConfig.accentColor}
+          font-family="monospace"
+          font-size="24"
+          transform="rotate(-15)">&lt;/&gt;</text
+        >
+        <text
+          x="150"
+          y="100"
+          fill={siteConfig.accentColor}
+          font-family="monospace"
+          font-size="20"
+          transform="rotate(10)">{}</text
+        >
+        <text
+          x="250"
+          y="80"
+          fill={siteConfig.accentColor}
+          font-family="monospace"
+          font-size="18"
+          transform="rotate(-5)">=&gt;</text
+        >
+        <text
+          x="100"
+          y="200"
+          fill={siteConfig.accentColor}
+          font-family="monospace"
+          font-size="22"
+          transform="rotate(15)">[]</text
+        >
+        <text
+          x="300"
+          y="180"
+          fill={siteConfig.accentColor}
+          font-family="monospace"
+          font-size="20"
+          transform="rotate(-10)">&lt;&gt;</text
+        >
+        <text
+          x="200"
+          y="250"
+          fill={siteConfig.accentColor}
+          font-family="monospace"
+          font-size="24"
+          transform="rotate(5)">()</text>
+        <text
+          x="50"
+          y="320"
+          fill={siteConfig.accentColor}
+          font-family="monospace"
+          font-size="18"
+          transform="rotate(-8)">::</text
+        >
+        <text
+          x="350"
+          y="300"
+          fill={siteConfig.accentColor}
+          font-family="monospace"
+          font-size="22"
+          transform="rotate(12)">==</text
+        >
+        <text
+          x="150"
+          y="350"
+          fill={siteConfig.accentColor}
+          font-family="monospace"
+          font-size="20"
+          transform="rotate(-15)">++</text
+        >
+        <text
+          x="250"
+          y="370"
+          fill={siteConfig.accentColor}
+          font-family="monospace"
+          font-size="24"
+          transform="rotate(8)">;</text>
+      </pattern>
+    </defs>
+    <rect
+      fill="url(#programming-symbols)"
+      width="100%"
+      height="100%"
+      opacity="0.2"></rect>
+    <rect
+      fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"
+      width="100%"
+      height="100%"
+      stroke-width={0}></rect>
+  </svg>
+  <div class="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center">
+    <div class="flex flex-col md:flex-row items-center md:justify-center md:gap-x-16 w-full">
+      <div class="flex-1 text-center md:text-left">
+        <h2
+          class="text-pretty text-xl sm:text-2xl md:text-5xl font-bold tracking-tight text-gray-700 animate-fade-in"
+        >
+          Hello! 👋
+        </h2>
+        <h1
+          class="mt-6 sm:mt-8 md:mt-10 text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200"
+        >
+          I'm <span style={{ color: siteConfig.accentColor }}
+            >{siteConfig.name}</span
+          >
+        </h1>
+        <div class="mt-8 flex justify-center md:justify-start space-x-6">
+          <a href={siteConfig.social.email} class="text-gray-600 hover:text-gray-800 transition-colors duration-200" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-9 11h9a2 2 0 002-2V7a2 2 0 00-2-2H3a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </a>
+          <a href={siteConfig.social.linkedin} class="text-gray-600 hover:text-gray-800 transition-colors duration-200" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.768s.784-1.768 1.75-1.768 1.75.79 1.75 1.768-.784 1.768-1.75 1.768zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+            </svg>
+          </a>
+          <a href={siteConfig.social.github} class="text-gray-600 hover:text-gray-800 transition-colors duration-200" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.6.111.819-.26.819-.578 0-.284-.01-1.042-.015-2.045-3.338.724-4.042-1.61-4.042-1.61-.542-1.372-1.328-1.742-1.328-1.742-1.089-.745.083-.729.083-.729 1.205.084 1.838 1.238 1.838 1.238 1.07 1.835 2.809 1.305 3.492.998.108-.778.417-1.305.76-1.605-2.665-.304-5.466-1.334-5.466-5.931 0-1.311.465-2.383 1.235-3.221-.124-.303-.535-1.517.117-3.179 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.662.242 2.876.118 3.179.77.838 1.233 1.911 1.233 3.221 0 4.609-2.806 5.624-5.474 5.925.42.36.815 1.096.815 2.219 0 1.605-.015 2.899-.015 3.287 0 .319.219.695.824.577 4.764-1.588 8.2-6.085 8.2-11.386c0-6.627-5.373-12-12-12z" />
+            </svg>
+          </a>
+          <a href={siteConfig.social.resume} class="text-gray-600 hover:text-gray-800 transition-colors duration-200" aria-label="Resume">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M14 2h-4l-2 2h-4v16h20v-16h-4l-2-2zm-6 3h8l1 1h-10l1-1zm-2 15v-13h16v13h-16z"/>
+              <path d="M10 9h8v1h-8zm0 2h8v1h-8zm0 2h6v1h-6z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="flex-1 mt-12 md:mt-0 flex justify-center md:justify-end">
+        <img
+          src="/Profile.jpeg"
+          alt="Jevaughn Newman"
+          class="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full object-cover shadow-lg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
