@@ -65,7 +65,7 @@ export const education = [
 export const projects = [
   {
     name: "East Coast Insurance Claims Dashboard Q1 2015",
-    description: "Developed an interactive claims dashboard...",
+    description: "Developed an interactive claims dashboard for East Coast Insurance using Power BI and SQL Server 2022. This solution provides key insights into Q1 claims trends, total claim amounts, and claimant profiles, empowering claims management to make faster, data-driven decisions.",
     link: "https://github.com/JevaughnNewman/East-Coast-Insurance-Data-Project",
     embedUrl: "https://app.powerbi.com/view?r=eyJrIjoiNGY2Y2Y4NDItYzBjNC00NWU3LWEyNjgtYjYyYmIyOWQwYzNkIiwidCI6IjVhMmY2ZmQxLTU3MzctNGY3Ny04MmNkLWQ4MGNhMGNkZjZiYSJ9",
     skills: ["Power BI", "SQL", "MS SQL Server 2022"],
