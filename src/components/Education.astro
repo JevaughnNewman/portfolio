@@ -1,6 +1,9 @@
 ---
-import { siteConfig } from "../config";
-const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+// 1. Correct Imports: Get the color from siteConfig and the data from education
+import { siteConfig, education } from "../config";
+
+// 2. Define the logic gate: Only show if there is data
+const hasEducation = education && education.length > 0;
 ---
 
 {
@@ -20,7 +23,8 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 
           <div class="lg:col-span-8">
             <div class="space-y-8">
-              {siteConfig.education.map((edu) => (
+              {/* FIX: Map over 'education' directly, not 'siteConfig.education' */}
+              {education.map((edu) => (
                 <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-5 md:p-6 hover:shadow-md transition-shadow duration-300">
                   <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4">
                     <div>
@@ -40,7 +44,8 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                   </div>
 
                   <ul class="space-y-2">
-                    {edu.achievements.map((achievement) => (
+                    {/* FIX: Add '?' (optional chaining) to prevent crashes if achievements are missing */}
+                    {edu.achievements?.map((achievement) => (
                       <li class="flex items-start">
                         <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
                         <span class="text-sm sm:text-base text-gray-600">
