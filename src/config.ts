@@ -26,12 +26,23 @@ export const experience = [
   {
     company: "Intact Financial Corporation",
     title: "Senior Claims Adjuster",
-    dateRange: "Jan 2023 - Present",
+    dateRange: "Jun 2022 - Present",
     bullets: [
       "Manage a caseload of 100+ active AB claims, reviewing medical records and clinical data to determine treatment approvals, assessments, and settlements under SABS, ensuring compliance and minimizing leakage.",
       "Analyzed trends across 300+ claims, identifying patterns in injury types and claimant demographics that informed department reporting and supported pricing strategies for high-risk profiles.",
       "Led cross-functional coordination with Legal, Accounting, and Management to standardize benefit tracking, achieving a 15% reduction in open file durations while maintaining settlement quality and compliance standards.",
-      "Led negotiations on full and final settlements, achieving fair resolutions while reducing open file durations by 15%, and collaborated with legal, accounting, and management teams to align settlement strategies.",
+      "Led negotiations on full and final settlements, achieving fair resolutions while reducing open file durations by 15%, and collaborated with legal, accounting, and management teams to align settlement strategies."
+    ],
+  },
+  {
+    company: "Intact Financial Corporation",
+    title: "Claims Representative, Accident Benefits",
+    dateRange: "Jan 2020 - Jun 2022",
+    bullets: [
+      "Handled Minor Injury & Non-catastrophic accident benefits claims, reviewing and interpreting medical records, treatment plans, and police reports with 98% documentation accuracy under SABS compliance.",
+      "Achieved a 65% Health Rely score (vs. 52% target), supporting a 25% improvement in customer satisfaction metrics.",
+      "Analyzed trends in treatment plan submissions and injury patterns to support consistent approvals/denials, improving decision-making accuracy and file progression.",
+      "Trained 5+ new team members on AB claims handling workflows and data entry protocols, enhancing team efficiency and file quality."
     ],
   }
 ];
@@ -52,7 +63,7 @@ export const education = [
     school: "Carleton University",
     degree: "Bachelor of Arts: Economics, Minor in Statistics",
     dateRange: "2018",
-    image: "carleton-university-logo-background-removed.jpg", 
+    image: "carleton-university-logo-background-removed.jpggit commit -m", 
     achievements: [
       "Statistical Modelling: Applied linear regression and ANOVA to analyze complex datasets.",
       "Experimental Design: Completed coursework in hypothesis testing and A/B testing frameworks.",
