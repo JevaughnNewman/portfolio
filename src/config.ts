@@ -51,7 +51,6 @@ export const education = [
   {
     school: "Microsoft",
     degree: "Microsoft Certified: Power BI Data Analyst Associate",
-    dateRange: "2024",
     image: "power-bi-cert.webp",
     achievements: [
       "Validated expertise in data analysis and visualization using the Microsoft Power BI platform.",
@@ -62,7 +61,6 @@ export const education = [
   {
     school: "Carleton University",
     degree: "Bachelor of Arts: Economics, Minor in Statistics",
-    dateRange: "2018",
     image: "carleton-university-logo-background-removed.jpg", 
     achievements: [
       "Statistical Modelling: Applied linear regression and ANOVA to analyze complex datasets.",
