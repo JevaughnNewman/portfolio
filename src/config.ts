@@ -36,7 +36,7 @@ export const experience = [
   },
   {
     company: "Intact Financial Corporation",
-    title: "Claims Representative, Accident Benefits",
+    title: "Claims Representative I & II, Accident Benefits",
     dateRange: "Jan 2020 - Jun 2022",
     bullets: [
       "Handled Minor Injury & Non-catastrophic accident benefits claims, reviewing and interpreting medical records, treatment plans, and police reports with 98% documentation accuracy under SABS compliance.",
