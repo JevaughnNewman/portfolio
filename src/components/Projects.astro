@@ -8,86 +8,33 @@ interface Props {
 }
 
 const { projects } = Astro.props;
-
-const tableauSkills = ["Tableau", "SQL", "MySQL Workbench 8.0.40"];
 ---
 
 <div id="projects" class="py-16 bg-white sm:py-24">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
-      <h2
-        class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl"
-        style={`color: ${siteConfig.accentColor}`}
-      >
+      <h2 class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl" style={`color: ${siteConfig.accentColor}`}>
         Projects
       </h2>
       <p class="mt-6 text-lg/8 text-gray-600">
-        These are some of the projects I've built using various technologies and tools.
+        Professional data solutions delivering actionable insights and strategic recommendations.
       </p>
     </div>
 
     <div class="mx-auto mt-16 max-w-2xl flex flex-col gap-y-16 lg:max-w-none">
-      
-      {/* 1. TARGET E-COMMERCE (Refactored to DIV for multiple links) */}
-      <div class="flex flex-col rounded-lg overflow-hidden h-full shadow-lg border border-gray-100 bg-white transition-transform duration-300 hover:scale-[1.02]">
-        <div class="w-full aspect-video bg-gray-100">
-          <Tableau />
-        </div>
-        <div class="flex-1 w-full p-6 bg-white flex flex-col justify-between">
-          <div>
-            <h3 class="text-2xl font-bold text-gray-800">Target Ecommerce Executive Dashboard</h3>
-            <p class="mt-4 text-gray-600 leading-relaxed">
-              Analyzed Target's Brazil e-commerce data to uncover sales trends, customer segments, and top products. Delivered insights through Tableau dashboards and a detailed report with actionable business recommendations.
-            </p>
-            <div class="mt-4 flex flex-wrap gap-2">
-              {tableauSkills.map((skill) => (
-                <span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 rounded-full font-semibold border border-gray-200">
-                  {skill}
-                </span>
-              ))}
-            </div>
-          </div>
-
-          {/* Target Footer Actions */}
-          <div class="mt-8 pt-6 border-t border-gray-100 flex flex-wrap items-center justify-between gap-4">
-            <a
-              href="https://github.com/JevaughnNewman/Target-E-Commerce-Sales-Data-Project"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-sm text-blue-600 font-bold hover:text-blue-800 flex items-center gap-1 transition-colors"
-            >
-              View Project on GitHub →
-            </a>
-            <a
-              href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/Brazil_E-Commerce_Accelerated_Growth_Strategy.pdf`}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-sm text-gray-700 font-bold hover:text-blue-600 flex items-center gap-1 transition-colors"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 2v-6m-8-4h8a2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2z" />
-              </svg>
-              Strategic Insights Deck ↗
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* 2. DYNAMIC PROJECTS LOOP (Refactored to DIV) */}
       {projects.map((project) => (
-        <div class="flex flex-col rounded-lg overflow-hidden h-full shadow-lg border border-gray-100 bg-white transition-transform duration-300 hover:scale-[1.02]">
-          <div class="w-full aspect-video bg-gray-100">
-            <iframe
-              class="w-full h-full border-0"
-              src={project.embedUrl}
-              allowfullscreen="true"
-              allow="fullscreen"
-              loading="lazy"
-            ></iframe>
+        <div class="flex flex-col rounded-lg overflow-hidden h-full shadow-lg border border-gray-100 bg-white transition-transform duration-300 hover:scale-[1.01]">
+          <div class="w-full aspect-video bg-gray-50">
+            {project.isTableau ? (
+              <Tableau />
+            ) : (
+              <iframe class="w-full h-full border-0" src={project.embedUrl} allowfullscreen="true" loading="lazy"></iframe>
+            )}
           </div>
-          <div class="flex-1 w-full p-6 bg-white flex flex-col justify-between">
+          
+          <div class="flex-1 w-full p-6 flex flex-col justify-between">
             <div>
-              <h3 class="text-2xl font-bold text-gray-800">{project.name || project.title}</h3>
+              <h3 class="text-2xl font-bold text-gray-800">{project.title}</h3>
               <p class="mt-4 text-gray-600 leading-relaxed">{project.description}</p>
               <div class="mt-4 flex flex-wrap gap-2">
                 {project.skills.map((skill) => (
@@ -98,27 +45,16 @@ const tableauSkills = ["Tableau", "SQL", "MySQL Workbench 8.0.40"];
               </div>
             </div>
 
-            {/* Insurance Footer Actions */}
             <div class="mt-8 pt-6 border-t border-gray-100 flex flex-wrap items-center justify-between gap-4">
-              <a
-                href={project.link || project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-sm text-blue-600 font-bold hover:text-blue-800 flex items-center gap-1 transition-colors"
-              >
+              <a href={project.github} target="_blank" rel="noopener noreferrer" class="text-sm text-blue-600 font-bold hover:text-blue-800 transition-colors">
                 View Project on GitHub →
               </a>
               {project.slides && (
-                <a
-                  href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/${project.slides.replace(/^\//, '')}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-sm text-gray-700 font-bold hover:text-blue-600 flex items-center gap-1 transition-colors"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/${project.slides.replace(/^\//, '')}`} target="_blank" rel="noopener noreferrer" class="text-sm text-gray-700 font-bold hover:text-blue-600 flex items-center gap-1 transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 2v-6m-8-4h8a2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2z" />
                   </svg>
-                  {project.slideLabel || "Executive Briefing Deck"} ↗
+                  {project.slideLabel} ↗
                 </a>
               )}
             </div>

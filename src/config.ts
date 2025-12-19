@@ -73,10 +73,22 @@ export const education = [
 
 export const projects = [
   {
-    name: "East Coast Insurance Claims Dashboard Q1 2015",
-    description: "Developed an interactive claims dashboard for East Coast Insurance using Power BI and SQL Server 2022. This solution provides key insights into Q1 claims trends, total claim amounts, and claimant profiles, empowering claims management to make faster, data-driven decisions.",
-    link: "https://github.com/JevaughnNewman/East-Coast-Insurance-Data-Project",
-    embedUrl: "https://app.powerbi.com/view?r=eyJrIjoiNGY2Y2Y4NDItYzBjNC00NWU3LWEyNjgtYjYyYmIyOWQwYzNkIiwidCI6IjVhMmY2ZmQxLTU3MzctNGY3Ny04MmNkLWQ4MGNhMGNkZjZiYSJ9",
-    skills: ["Power BI", "SQL", "MS SQL Server 2022"],
+    title: "Target Ecommerce Executive Dashboard",
+    description: "Analyzed Target's Brazil e-commerce data to uncover sales trends, customer segments, and top products. Delivered insights through Tableau dashboards and a detailed report with actionable business recommendations.",
+    github: "https://github.com/JevaughnNewman/Target-E-Commerce-Sales-Data-Project",
+    embedUrl: "", // Leave blank since Target uses the special <Tableau /> component
+    slides: "Brazil_E-Commerce_Accelerated_Growth_Strategy.pdf",
+    slideLabel: "Strategic Insights Deck",
+    skills: ["Tableau", "SQL", "MySQL Workbench 8.0.40"],
+    isTableau: true // We use this flag to tell the code to show the Tableau component
   },
+  {
+    title: "East Coast Insurance - Q1 Claims Analysis",
+    description: "Developed an interactive claims dashboard for East Coast Insurance using Power BI and SQL Server 2022...",
+    github: "https://github.com/JevaughnNewman/East-Coast-Insurance-Data-Project",
+    embedUrl: "https://app.powerbi.com/view?r=eyJr...",
+    slides: "Risk_Mitigation_Strategies_Q1_Claims_Analysis.pdf",
+    slideLabel: "Executive Briefing Deck",
+    skills: ["Power BI", "SQL", "MS SQL Server 2022"]
+  }
 ];
