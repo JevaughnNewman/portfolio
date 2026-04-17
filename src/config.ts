@@ -14,7 +14,7 @@ export const siteConfig = {
 
 Currently, I architect forensic data environments that bridge the gap between legacy batch processing and real time monitoring. Whether it is engineering streaming engines for the Real Time Rail (RTR) or developing Medallion architectures in Snowflake to ensure auditability, I focus on maintaining systemic stability through data integrity.`,
 
-  skills: ["SQL", "Python", "dbt", "Snowflake", "Apache Spark", "Apache Airflow", "Tableau", "Power BI", "Data Modeling", "Git", "GitHub", "Medallion Architecture"],
+  skills: ["Apache Spark", "Apache Airflow", "dbt", "Snowflake", "SQL", "Python", "Data Modeling","Medallion Architecture", "Git", "Tableau", "Power BI", "Excel"],
 
 };
 
