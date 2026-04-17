@@ -20,7 +20,7 @@ I leverage a technical stack including SQL, dbt, Python, and Snowflake to transf
     "Data Engineering": ["SQL", "Python", "dbt", "Snowflake", "Apache Spark", "Apache Airflow"],
     "Analytics & BI": ["Tableau", "Power BI", "Data Modeling"],
     "Systems & Version Control": ["Git", "GitHub", "Medallion Architecture"]
-    }
+    },
   };
 
 // 2. Export separately so the template can find them
