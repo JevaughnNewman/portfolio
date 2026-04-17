@@ -14,28 +14,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository
-        # v6 is the 2026 standard for Node 24 compatibility
-        uses: actions/checkout@v6 
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Reverting to v4 as it's the stable workhorse
 
       - name: Install, build, and upload
         uses: withastro/action@v3
         with:
           path: .
-          # Use 22 or 24. Astro v3+ is fully compatible with Node 24
-          node-version: 24 
+          node-version: 20
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      # We reference the output of the deployment step below
+      url: ${{ steps.pages_deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        # v4 is still standard, but keep an eye out for v5
+        # Renamed this ID to be unique and specific
+        id: pages_deployment 
         uses: actions/deploy-pages@v4
-      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
