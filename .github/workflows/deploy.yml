@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4 # Reverting to v4 as it's the stable workhorse
+        uses: actions/checkout@v4
 
       - name: Install, build, and upload
         uses: withastro/action@v3
@@ -28,12 +28,8 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      # We reference the output of the deployment step below
       url: ${{ steps.pages_deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-        # Renamed this ID to be unique and specific
-        id: pages_deployment 
-        uses: actions/deploy-pages@v4
-        id: deployment
+        id: pages_deployment
         uses: actions/deploy-pages@v4
