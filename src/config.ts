@@ -19,7 +19,7 @@ As a mentor to junior adjusters, I promote team development and clear communicat
 I’m excited to contribute to a data-driven team where my analytical skills and insurance experience create real impact. Let’s connect to explore opportunities.`,
 
   skills: {
-    "Data Engineering": ["SQL", "Python", "dbt", "Snowflake"],
+    "Data Engineering": ["SQL", "Python", "dbt", "Snowflake", "Apache Spark", "Apache Airflow"],
     "Analytics & BI": ["Tableau", "Power BI", "Data Modeling"],
     "Systems & Version Control": ["Git", "GitHub", "Medallion Architecture"]
 };
