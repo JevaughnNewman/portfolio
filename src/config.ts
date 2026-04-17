@@ -1,8 +1,8 @@
 // 1. General Site Info
 export const siteConfig = {
   name: "Jevaughn Newman",
-  title: "Business Intelligence Analyst",
-  description: "Portfolio showcasing my analytics projects and skills",
+  title: "Analytics Engineer | Fraud & Risk Systems",
+  description: "Specializing in forensic data pipelines, adversarial risk detection, and scalable analytics engineering.",
   accentColor: "#1d4ed8",
   social: {
     email: "mailto:jevaughn.newman@gmail.com",
@@ -10,19 +10,18 @@ export const siteConfig = {
     github: "https://github.com/JevaughnNewman",
     resume: "Jevaughn Newman - Businesses Intelligence Analyst.pdf",
   },
-  aboutMe: `I’m a business intelligence analyst with nearly six years in insurance, specializing in accident benefits and complex claims. Using SQL, Power BI, Excel, Tableau, and Python, I transform complex claims data into actionable insights that reduce costs, enhance operational efficiency, and inform strategic decisions.
+  aboutMe: `I specialize in the intersection of complex regulatory logic and high performance analytics engineering. With over six years of experience in the Canadian insurance sector, I deconstruct adversarial risk patterns and translate that logic into production grade data pipelines.
 
-I design scalable analytics solutions and interactive dashboards to monitor reserve trends and claims leakage, enabling faster, data-driven decision-making within highly regulated environments.
+Currently, I architect forensic data environments that bridge the gap between legacy batch processing and real time monitoring. Whether it is engineering streaming engines for the Real Time Rail (RTR) or developing Medallion architectures in Snowflake to ensure auditability, I focus on maintaining systemic stability through data integrity.
 
-As a mentor to junior adjusters, I promote team development and clear communication across legal, finance, and operations. Certified as a Microsoft Power BI Data Analyst Associate, I combine deep industry knowledge with technical expertise to drive measurable business results.
-
-I’m excited to contribute to a data-driven team where my analytical skills and insurance experience create real impact. Let’s connect to explore opportunities.`,
+I leverage a technical stack including SQL, dbt, Python, and Snowflake to transform raw, unstructured risk data into actionable insights. My goal is to shift risk oversight from reactive reporting to proactive engineering, ensuring that every decision is grounded in truth and technical precision.`,
 
   skills: {
     "Data Engineering": ["SQL", "Python", "dbt", "Snowflake", "Apache Spark", "Apache Airflow"],
     "Analytics & BI": ["Tableau", "Power BI", "Data Modeling"],
     "Systems & Version Control": ["Git", "GitHub", "Medallion Architecture"]
-};
+    }
+  };
 
 // 2. Export separately so the template can find them
 export const experience = [
