@@ -2,26 +2,24 @@
 export const siteConfig = {
   name: "Jevaughn Newman",
   title: "Analytics Engineer | Fraud & Risk Systems",
-  description: "Specializing in forensic data pipelines, adversarial risk detection, and scalable analytics engineering.",
+  description: "Portfolio showcasing my analytics projects and skills",
   accentColor: "#1d4ed8",
   social: {
     email: "mailto:jevaughn.newman@gmail.com",
     linkedin: "https://www.linkedin.com/in/jevaughnnewman",
     github: "https://github.com/JevaughnNewman",
-    resume: "Jevaughn Newman - Businesses Intelligence Analyst.pdf",
+    resume: "Jevaughn Newman - Analytics Engineer.pdf",
   },
   aboutMe: `I specialize in the intersection of complex regulatory logic and high performance analytics engineering. With over six years of experience in the Canadian insurance sector, I deconstruct adversarial risk patterns and translate that logic into production grade data pipelines.
 
-Currently, I architect forensic data environments that bridge the gap between legacy batch processing and real time monitoring. Whether it is engineering streaming engines for the Real Time Rail (RTR) or developing Medallion architectures in Snowflake to ensure auditability, I focus on maintaining systemic stability through data integrity.
-
-I leverage a technical stack including SQL, dbt, Python, and Snowflake to transform raw, unstructured risk data into actionable insights. My goal is to shift risk oversight from reactive reporting to proactive engineering, ensuring that every decision is grounded in truth and technical precision.`,
+Currently, I architect forensic data environments that bridge the gap between legacy batch processing and real time monitoring. Whether it is engineering streaming engines for the Real Time Rail (RTR) or developing Medallion architectures in Snowflake to ensure auditability, I focus on maintaining systemic stability through data integrity.`,
 
   skills: {
     "Data Engineering": ["SQL", "Python", "dbt", "Snowflake", "Apache Spark", "Apache Airflow"],
     "Analytics & BI": ["Tableau", "Power BI", "Data Modeling"],
     "Systems & Version Control": ["Git", "GitHub", "Medallion Architecture"]
-    },
-  };
+  } 
+}; 
 
 // 2. Export separately so the template can find them
 export const experience = [
