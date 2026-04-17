@@ -10,6 +10,10 @@ permissions:
   pages: write
   id-token: write
 
+# This tells the runner to use the new JS engine standards for 2026
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,10 +22,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install, build, and upload
+        # withastro/action handles the Astro build process
         uses: withastro/action@v3
         with:
           path: .
-          node-version: 20
+          # UPDATED: Moving to Node 24 to match 2026 runner defaults
+          node-version: 24
 
   deploy:
     needs: build
