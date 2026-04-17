@@ -18,7 +18,10 @@ As a mentor to junior adjusters, I promote team development and clear communicat
 
 I’m excited to contribute to a data-driven team where my analytical skills and insurance experience create real impact. Let’s connect to explore opportunities.`,
 
-  skills: ["PowerBI", "SQL", "Tableau", "Python", "Data Analysis", "DAX", "Power Query", "Data Modeling", "Git"],
+  skills: {
+    "Data Engineering": ["SQL", "Python", "dbt", "Snowflake"],
+    "Analytics & BI": ["Tableau", "Power BI", "Data Modeling"],
+    "Systems & Version Control": ["Git", "GitHub", "Medallion Architecture"]
 };
 
 // 2. Export separately so the template can find them
