@@ -20,9 +20,26 @@ import { siteConfig } from "../config";
       </div>
 
       <div class="lg:col-span-8 space-y-8">
-        <p class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600">
+        <!-- 🔹 added 'whitespace-pre-line' to naturally honor line spacing splits -->
+        <p class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600 whitespace-pre-line">
           {siteConfig.aboutMe}
         </p>
+
+        <!-- 🔹 Dedicated Substack Link Row -->
+        {siteConfig.social.substack && (
+          <div class="pt-2 text-lg sm:text-xl md:text-2xl text-gray-600">
+            <span>👉 I also write about how the payment and threat landscape is evolving: </span>
+            <a 
+              href={siteConfig.social.substack} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="font-medium underline transition-opacity duration-200 hover:opacity-80"
+              style={`color: ${siteConfig.accentColor}`}
+            >
+              Check out Risk to Real-Time on Substack
+            </a>
+          </div>
+        )}
 
         <div class="pt-4">
           <div class="flex flex-wrap gap-3">
@@ -30,6 +47,7 @@ import { siteConfig } from "../config";
               siteConfig.skills.map((skill) => (
                 <span class="px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-100 text-gray-800 rounded-full text-sm sm:text-base md:text-lg font-medium hover:bg-gray-200 transition-colors duration-200">
                   {skill}
+                 Lucas
                 </span>
               ))
             }
