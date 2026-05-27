@@ -24,10 +24,7 @@ export const siteConfig = {
     "Relational Star-Schema Design",
     "Power BI Data Analyst (Microsoft Certified)",
     "Tableau",
-    "Power Query",
-    "Advanced Excel Modelling",
     "Behavioural Anomaly Detection",
-    "Fraud Typology Profiling",
     "Loss Mitigation Operations",
     "Regulatory Mapping (SABS/FSRA/PIPEDA)"
   ],
