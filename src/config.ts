@@ -93,12 +93,12 @@ export const projects = [
     isTableau: true // We use this flag to tell the code to show the Tableau component
   },
   {
-    title: "East Coast Insurance - Q1 Claims Analysis",
-    description: "Developed an interactive claims dashboard for East Coast Insurance using Power BI and SQL Server 2022...",
+    title: "Insurance Claims Anomaly Engine, East Coast Insurance Database",
+    description: "A granular database analysis and business intelligence framework built to isolate behavioural anomaly patterns, regional settlement spikes, and user verification profiles across historical e-commerce ledger records. Executed complex relational queries to clean and profile customer segment variations, mapping high-risk geographic distributions to inform transaction control testing and operational risk mitigation strategy tables",
     github: "https://github.com/JevaughnNewman/East-Coast-Insurance-Data-Project",
     embedUrl: "https://app.powerbi.com/view?r=eyJr...",
     slides: "Risk_Mitigation_Strategies_Q1_Claims_Analysis.pdf",
-    slideLabel: "Executive Briefing Deck",
-    skills: ["Power BI", "SQL", "MS SQL Server 2022"]
+    slideLabel: "Strategic Insights Deck",
+    skills: ["Tableau", "SQL", "MySQL Workbench 8.0.40", "Transaction Profiling", "Risk Mapping"]
   }
 ];
