@@ -11,9 +11,11 @@ export const siteConfig = {
     resume: "Jevaughn Newman - Fraud Analyst Master Resume 2026.docx_2.pdf",
     substack: "https://risktorealtime.substack.com",
   },
-  aboutMe: `I bridge the gap between technical data analytics and deep fraud domain intuition. Backed by over six years of front-line risk operations and transaction triage experience within the Canadian insurance sector, I write optimized SQL, build high-fidelity business intelligence assets, and design forensic data models to unmask structural anomalies, fraud typologies, and financial exposure.
+  aboutMe: `I have spent the last six years on the front lines of high-stakes risk operations and transaction triage within the Canadian insurance sector. My background is rooted in investigating adversarial fraud typologies, navigating complex regulatory logic, and identifying where financial leakage occurs. 
 
-From backtesting risk-scoring heuristics on large-scale datasets to constructing auditable analytical warehouses, my focus is on deploying the data-driven infrastructure required to protect organizational bottom lines, eliminate systemic leakage, and support executive decision-making.`,
+Through this experience, I realized that effectively mitigating risk at scale requires moving past manual review cycles and building more resilient data environments. I developed my expertise in SQL, Python, dbt, and Snowflake to bridge this exact gap—translating operational risk intuition into clean, auditable data models and interactive dashboards that protect organizational bottom lines. I look at data through a defensive, investigative lens, focusing on turning messy ledger entries into actionable risk intelligence.
+
+👉 **I also write about how the payment and threat landscape is evolving:** [Check out Risk to Real-Time on Substack](https://risktorealtime.substack.com)`,
 
   skills: [
     "SQL (MSSQL, MySQL, Snowflake)",
