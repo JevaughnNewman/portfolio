@@ -2,7 +2,7 @@
 export const siteConfig = {
   name: "Jevaughn Newman",
   title: "Risk & Fraud Data Analyst",
-  description: "Portfolio showcasing my forensic data modeling, risk analytics pipelines, and business intelligence environments.",
+  description: "Portfolio showcasing my forensic data modelling, risk analytics pipelines, and business intelligence environments.",
   accentColor: "#FF6B00",
   social: {
     email: "mailto:jevaughn.newman@gmail.com",
