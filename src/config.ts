@@ -1,21 +1,34 @@
 // 1. General Site Info
 export const siteConfig = {
   name: "Jevaughn Newman",
-  title: "Analytics Engineer | Fraud & Risk Systems",
-  description: "Portfolio showcasing my analytics projects and skills",
-  accentColor: "#1d4ed8",
+  title: "Risk & Fraud Data Analyst",
+  description: "Portfolio showcasing my forensic data modeling, risk analytics pipelines, and business intelligence environments.",
+  accentColor: "#FF6B00",
   social: {
     email: "mailto:jevaughn.newman@gmail.com",
     linkedin: "https://www.linkedin.com/in/jevaughnnewman",
     github: "https://github.com/JevaughnNewman",
-    resume: "Jevaughn Newman - Analytics Engineer.pdf",
+    resume: "Jevaughn Newman - Fraud Analyst Master Resume 2026.docx_2.pdf",
   },
-  aboutMe: `I specialize in the intersection of complex regulatory logic and high performance analytics engineering. With over six years of experience in the Canadian insurance sector, I deconstruct adversarial risk patterns and translate that logic into production grade data pipelines.
+  aboutMe: `I bridge the gap between technical data analytics and deep fraud domain intuition. Backed by over six years of front-line risk operations and transaction triage experience within the Canadian insurance sector at Intact Financial Corporation, I write optimized SQL, build high-fidelity business intelligence assets, and design forensic data models to unmask structural anomalies, fraud typologies, and financial exposure.
 
-Currently, I architect forensic data environments that bridge the gap between legacy batch processing and real time monitoring. Whether it is engineering streaming engines for the Real Time Rail (RTR) or developing Medallion architectures in Snowflake to ensure auditability, I focus on maintaining systemic stability through data integrity.`,
+From backtesting risk-scoring heuristics on large-scale datasets to constructing auditable analytical warehouses, my focus is on deploying the data-driven infrastructure required to protect organizational bottom lines, eliminate systemic leakage, and support executive decision-making.`,
 
-  skills: ["Apache Spark", "Apache Airflow", "dbt", "Snowflake", "SQL", "Python", "Data Modeling","Medallion Architecture", "Git", "Tableau", "Power BI", "Excel"],
-
+  skills: [
+    "SQL (MSSQL, MySQL, Snowflake)",
+    "dbt Core",
+    "Relational Star-Schema Design",
+    "ETL/ELT Architecture",
+    "Python (Pandas, NumPy)",
+    "Power BI (PL-300 Certified)",
+    "Tableau",
+    "Power Query",
+    "Advanced Excel Modelling",
+    "Behavioural Anomaly Detection",
+    "Fraud Typology Profiling",
+    "Loss Mitigation",
+    "Regulatory Mapping (SABS/FSRA/PIPEDA)"
+  ],
 };
 
 // 2. Export separately so the template can find them
