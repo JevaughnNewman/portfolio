@@ -11,7 +11,7 @@ export const siteConfig = {
     resume: "Jevaughn Newman - Fraud Analyst Master Resume 2026.docx_2.pdf",
     substack: "https://risktorealtime.substack.com",
   },
-  aboutMe: `I bridge the gap between technical data analytics and deep fraud domain intuition. Backed by over six years of front-line risk operations and transaction triage experience within the Canadian insurance sector at Intact Financial Corporation, I write optimized SQL, build high-fidelity business intelligence assets, and design forensic data models to unmask structural anomalies, fraud typologies, and financial exposure.
+  aboutMe: `I bridge the gap between technical data analytics and deep fraud domain intuition. Backed by over six years of front-line risk operations and transaction triage experience within the Canadian insurance sector, I write optimized SQL, build high-fidelity business intelligence assets, and design forensic data models to unmask structural anomalies, fraud typologies, and financial exposure.
 
 From backtesting risk-scoring heuristics on large-scale datasets to constructing auditable analytical warehouses, my focus is on deploying the data-driven infrastructure required to protect organizational bottom lines, eliminate systemic leakage, and support executive decision-making.`,
 
