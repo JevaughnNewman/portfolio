@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="LinkedIn Risk Analyst Banner.png" alt="Risk & Fraud Analytics Banner">
+  <img src="Risk & Fraud Analytics Banner" alt="Risk & Fraud Analytics Banner">
 </p>
 
 # Personal Portfolio Architecture
