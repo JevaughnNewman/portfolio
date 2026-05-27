@@ -11,11 +11,9 @@ export const siteConfig = {
     resume: "Jevaughn Newman - Fraud Analyst Master Resume 2026.docx_2.pdf",
     substack: "https://risktorealtime.substack.com",
   },
-  aboutMe: `I have spent the last six years on the front lines of high-stakes risk operations and transaction triage within the Canadian insurance sector. My background is rooted in investigating adversarial fraud typologies, navigating complex regulatory logic, and identifying where financial leakage occurs. 
+  aboutMe: `I have spent the last six years on the front lines of high-stakes risk operations and transaction triage within the Canadian insurance sector. My background is rooted in investigating adversarial fraud typologies, navigating complex regulatory logic, and identifying where financial leakage occurs. Through this experience, I realized that effectively mitigating risk at scale requires moving past manual review cycles and building more resilient data environments. I developed my expertise in SQL, Python, dbt, and Snowflake to bridge this exact gap—translating operational risk intuition into clean, auditable data models and interactive dashboards that protect organizational bottom lines. I look at data through a defensive, investigative lens, focusing on turning messy ledger entries into actionable risk intelligence.
 
-Through this experience, I realized that effectively mitigating risk at scale requires moving past manual review cycles and building more resilient data environments. I developed my expertise in SQL, Python, dbt, and Snowflake to bridge this exact gap—translating operational risk intuition into clean, auditable data models and interactive dashboards that protect organizational bottom lines. I look at data through a defensive, investigative lens, focusing on turning messy ledger entries into actionable risk intelligence.
-
-👉 **I also write about how the payment and threat landscape is evolving:** [Check out Risk to Real-Time on Substack](https://risktorealtime.substack.com)`,
+👉 I also write about how the payment and threat landscape is evolving: <a href="https://risktorealtime.substack.com" target="_blank" style="color: #FF6B00; text-decoration: underline;">Check out Risk to Real-Time on Substack</a>`,
 
   skills: [
     "SQL",
