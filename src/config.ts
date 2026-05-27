@@ -97,11 +97,11 @@ export const projects = [
   },
   {
     title: "Insurance Claims Anomaly Engine, East Coast Insurance Database",
-    description: "A relational database optimization framework and interactive analytics environment engineered to unify fragmented, multi-source financial risk assets. Designed a robust star-schema data model in Microsoft SQL Server to optimize analytical query speeds, execute multi-layered trend analyses on historical logging data, and build quantitative profiling metrics that isolated systemic data anomalies to mitigate future portfolio exposure."
+    description: "A relational database optimization framework and interactive analytics environment engineered to unify fragmented, multi-source financial risk assets. Designed a robust star-schema data model in Microsoft SQL Server to optimize analytical query speeds, execute multi-layered trend analyses on historical logging data, and build quantitative profiling metrics that isolated systemic data anomalies to mitigate future portfolio exposure.",
     github: "https://github.com/JevaughnNewman/East-Coast-Insurance-Data-Project",
     embedUrl: "https://app.powerbi.com/view?r=eyJr...",
     slides: "Risk_Mitigation_Strategies_Q1_Claims_Analysis.pdf",
     slideLabel: "Executive Briefing Deck",
-    skills: ["Power BI", "SQL", "MS SQL Server 2022", "Star-Schema Design", "Forensic Analytics"]
+    skills: ["Power BI", "SQL", "MS SQL Server 2022", "Star-Schema Design", "Forensic Analytics"],
   }
 ];
