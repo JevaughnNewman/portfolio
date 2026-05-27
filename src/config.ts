@@ -62,7 +62,7 @@ export const education = [
     achievements: [
       "Validated expertise in data analysis and visualization using the Microsoft Power BI platform.",
       "Certified in using Power Query, DAX, and M to build robust data models and reports.",
-      "Proficient in creating interactive dashboards and sharing data-driven insights with stakeholders.",
+      "Proficient in creating interactive dashboards and sharing data-driven insights with stakeholders."
     ],
   },
   {
