@@ -2,7 +2,7 @@
 import { siteConfig } from "../config";
 import Tableau from "./Tableau.astro";
 
-// We aren't using the projects loop right now to ensure the PBI embed works perfectly
+// We aren't using the project's loop right now to ensure the PBI embed works perfectly
 ---
 
 <div id="projects" class="py-16 bg-white sm:py-24">
@@ -28,12 +28,12 @@ import Tableau from "./Tableau.astro";
         </div>
         <div class="flex-1 w-full p-6 bg-white flex flex-col justify-between">
           <div>
-            <h3 class="text-2xl font-bold text-gray-800">Target Ecommerce Executive Dashboard</h3>
+            <h3 class="text-2xl font-bold text-gray-800">Target E-Commerce Sales & Operations Analysis</h3>
             <p class="mt-4 text-gray-600 leading-relaxed">
-              Utilized MySQL Workbench 8.0.40 to ingest and profile large-scale historical transaction ledgers, identifying operational bottlenecks and tracking transactional velocity across regional distributions. Executed complex relational queries and window functions to isolate anomalies in user verification data, behaviour variance, and customer settlement clusters. Developed a centralized Tableau analytics interface to map these geographic risk hot spots and identity profiles, transforming raw database logs into clear, operational indicators to support strategic fraud mitigation and threat control testing.
+              Utilized MySQL Workbench to ingest, clean, and profile a multi-table Brazilian e-commerce dataset, running complex relational queries to evaluate product performance and customer segments. Structured the data to identify key operational friction points, tracking transaction volumes and delivery timeline variances across different regions. Developed an interactive Tableau dashboard to map these geographic trends, transforming raw database records into clear visual indicators that highlight regional growth and operational inefficiencies.
             </p>
             <div class="mt-4 flex flex-wrap gap-2">
-              {["Tableau", "SQL", "MySQL Workbench 8.0.40"].map((skill) => (
+              {["Tableau", "SQL", "MySQL Workbench 8.0.40", "Customer Segmentation", "Operations Analytics"].map((skill) => (
                 <span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 rounded-full font-semibold border border-gray-200">{skill}</span>
               ))}
             </div>
