@@ -21,7 +21,7 @@ export const siteConfig = {
     "Power BI (PL-300 Certified)",
     "Tableau",
     "Loss Mitigation Operations",
-    "Regulatory Mapping (SABS/FSRA//PIPEDA)"
+    "Regulatory Mapping (SABS/FSRA/PIPEDA)"
   ],
 };
 
