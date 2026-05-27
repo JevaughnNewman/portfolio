@@ -19,18 +19,19 @@ Through this experience, I realized that effectively mitigating risk at scale re
 👉 **I also write about how the payment and threat landscape is evolving:** Check out Risk to Real-Time on [Substack](https://risktorealtime.substack.com)`,
 
   skills: [
-    "SQL (MSSQL, MySQL, Snowflake)",
+    "SQL",
     "dbt Core",
-    "Relational Star-Schema Design",
+    "Cloud Data Warehousing (Snowflake)",
     "ETL/ELT Architecture",
-    "Python (Pandas, NumPy)",
+    "Relational Star-Schema Design",
+    "Python",
     "Power BI (PL-300 Certified)",
     "Tableau",
     "Power Query",
     "Advanced Excel Modelling",
     "Behavioural Anomaly Detection",
     "Fraud Typology Profiling",
-    "Loss Mitigation",
+    "Loss Mitigation Operations",
     "Regulatory Mapping (SABS/FSRA/PIPEDA)"
   ],
 };
