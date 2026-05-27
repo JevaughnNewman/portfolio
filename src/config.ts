@@ -11,20 +11,17 @@ export const siteConfig = {
     resume: "Jevaughn Newman - Fraud Analyst Master Resume 2026.docx_2.pdf",
     substack: "https://risktorealtime.substack.com",
   },
-  aboutMe: `I have spent the last six years on the front lines of high-stakes risk operations and transaction triage within the Canadian insurance sector. My background is rooted in investigating adversarial fraud typologies, navigating complex regulatory logic, and identifying where financial leakage occurs. Through this experience, I realized that effectively mitigating risk at scale requires moving past manual review cycles and building more resilient data environments. I developed my expertise in SQL, Python, dbt, and Snowflake to bridge this exact gap—translating operational risk intuition into clean, auditable data models and interactive dashboards that protect organizational bottom lines. I look at data through a defensive, investigative lens, focusing on turning messy ledger entries into actionable risk intelligence.`
+  aboutMe: `I have spent the last six years on the front lines of high-stakes risk operations and transaction triage within the Canadian insurance sector. My background is rooted in investigating adversarial fraud typologies, navigating complex regulatory logic, and identifying where financial leakage occurs. Through this experience, I realized that effectively mitigating risk at scale requires moving past manual review cycles and building more resilient data environments. I developed my expertise in SQL, Python, dbt, and Snowflake to bridge this exact gap—translating operational risk intuition into clean, auditable data models and interactive dashboards that protect organizational bottom lines. I look at data through a defensive, investigative lens, focusing on turning messy ledger entries into actionable risk intelligence.`,
 
   skills: [
-    "SQL",
+    "SQL (Snowflake / MSSQL)",
     "dbt Core",
-    "Python",
-    "Snowflake",
-    "ETL/ELT Architecture",
+    "Python (Pandas)",
     "Relational Star-Schema Design",
-    "Power BI Data Analyst (Microsoft Certified)",
+    "Power BI (PL-300 Certified)",
     "Tableau",
-    "Behavioural Anomaly Detection",
     "Loss Mitigation Operations",
-    "Regulatory Mapping (SABS/FSRA/PIPEDA)"
+    "Regulatory Mapping (SABS/FSRA)"
   ],
 };
 
@@ -80,18 +77,18 @@ export const education = [
 
 export const projects = [
   {
-    title: "Target Ecommerce Executive Dashboard",
-    description: "Analyzed Target's Brazil e-commerce data to uncover sales trends, customer segments, and top products. Delivered insights through Tableau dashboards and a detailed report with actionable business recommendations.",
+    title: "Target E-Commerce Sales & Operations Analysis",
+    description: "Utilized MySQL Workbench to ingest, clean, and profile a multi-table Brazilian e-commerce dataset, running complex relational queries to evaluate product performance and customer segments. Structured the data to identify key operational friction points, tracking transaction volumes and delivery timeline variances across different regions. Developed an interactive Tableau dashboard to map these geographic trends, transforming raw database records into clear visual indicators that highlight regional growth and operational inefficiencies.",
     github: "https://github.com/JevaughnNewman/Target-E-Commerce-Sales-Data-Project",
-    embedUrl: "", // Leave blank since Target uses the special <Tableau /> component
+    embedUrl: "", 
     slides: "Brazil_E-Commerce_Accelerated_Growth_Strategy.pdf",
     slideLabel: "Strategic Insights Deck",
-    skills: ["Tableau", "SQL", "MySQL Workbench 8.0.40"],
-    isTableau: true // We use this flag to tell the code to show the Tableau component
+    skills: ["Tableau", "SQL", "MySQL Workbench", "Geographic Mapping", "Customer Segmentation", "Data Cleansing", "Operations Analytics"],
+    isTableau: true 
   },
   {
     title: "Insurance Claims Anomaly Engine, East Coast Insurance Database",
-    description: "A relational database optimization framework and interactive analytics environment engineered to unify fragmented, multi-source financial risk assets. Designed a robust star-schema data model in Microsoft SQL Server to optimize analytical query speeds, execute multi-layered trend analyses on historical logging data, and build quantitative profiling metrics that isolated systemic data anomalies to mitigate future portfolio exposure.",
+    description: "Engineered a relational star-schema data model in Microsoft SQL Server 2022 to unify fragmented, multi-source claims and customer logging records. Designed and executed complex relational queries to backtest historical transaction trends, profiling high-risk claimant demographics and identifying underlying injury pattern anomalies. Delivered an interactive Power BI analytics environment that isolated systemic billing variances, providing risk operations with the auditable insights required to plug leakage and mitigate future portfolio exposure.",
     github: "https://github.com/JevaughnNewman/East-Coast-Insurance-Data-Project",
     embedUrl: "https://app.powerbi.com/view?r=eyJr...",
     slides: "Risk_Mitigation_Strategies_Q1_Claims_Analysis.pdf",
